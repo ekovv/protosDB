@@ -10,10 +10,11 @@ service Creator {
 }
 
 message CreateDBRequest {
-  string login = 1;
-  string password = 2;
-  string dbName = 3;
-  string dbType = 4;
+  string user = 1;
+  string login = 2;
+  string password = 3;
+  string dbName = 4;
+  string dbType = 5;
 }
 
 message CreateDBResponse {
